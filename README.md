@@ -186,7 +186,7 @@ The following command line options only apply when measuring Gradle builds:
 - `--measure-config-time`: Measure some additional details about configuration time. Only supported for Gradle 6.1 and later.
 - `--measure-build-op`: Additionally measure the cumulative time spent in the given build operation. Only supported for Gradle 6.1 and later.
 - `-D<key>=<value>`: Defines a system property when running the build, overriding the default for the build.
-- `--studio-install-dir`: The Android Studio installation directory. Required when measuring Android Studio sync.
+- `--studio-install-dir`: The Android Studio installation directory. Required when measuring Android Studio sync. (e.g.: `/Applications/Android Studio 4.1.app/` on Mac OS X)
 
 ## Advanced profiling scenarios
 
